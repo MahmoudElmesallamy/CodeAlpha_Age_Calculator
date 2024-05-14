@@ -15,7 +15,7 @@ function calculateAge () {
         document.getElementById("result").innerText = "Please Enter a valid data of birth.";
         return;
     }
-    else if (year > 2024 || year < 1990) {
+    else if (year > 2024 || year < 1900) {
         document.getElementById("result").innerText = "Please Enter a valid data of birth.";
         return;
     }
