@@ -3,7 +3,19 @@ function calculateAge () {
     const month = document.getElementById("month").value;
     const year = document.getElementById("year").value;
 
-    if ( !day || !month || !year ){
+       if ( !day || !month || !year ){
+        document.getElementById("result").innerText = "Please Enter a valid data of birth.";
+        return;
+    }
+    else if (day > 31 || day < 1) {
+        document.getElementById("result").innerText = "Please Enter a valid data of birth.";
+        return;
+    }
+    else if (month > 12 || month < 1) {
+        document.getElementById("result").innerText = "Please Enter a valid data of birth.";
+        return;
+    }
+    else if (year > 2024 || year < 1990) {
         document.getElementById("result").innerText = "Please Enter a valid data of birth.";
         return;
     }
