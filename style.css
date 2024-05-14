@@ -1,0 +1,91 @@
+body {
+   width: 100%;
+   margin: 0;
+   background-color:#1b1b32;
+   color: #f5f6f7;
+ }
+ 
+ h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+    text-align: center;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    display: flex;
+    justify-content:center;
+    margin: 30px 0;
+  }
+
+  label {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    align-items: center;
+  }
+
+  button {
+    background-color: #4ECCA3;
+    color: #f5f6f7;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 20px;
+    border-radius:  30%;
+    
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: 600px) {
+
+    h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1.5px 0 #232931;
+    font-size: 3rem;
+    color: #4ECCA3;
+    text-align: center;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+  }
+
+  div img {
+    width: 100%;
+  }
+
+  form {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    
+  }
+
+  form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .input-field {
+    width: 100px; /* Set the desired width */
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+}
