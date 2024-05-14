@@ -87,5 +87,6 @@ body {
     padding: 5px;
     margin: 5px 0;
     box-sizing: border-box; /* Ensures padding and border are included in the width */
+    background-color: #ffffff;
 }
 }
